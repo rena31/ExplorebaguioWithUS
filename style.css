@@ -145,61 +145,41 @@ body, html {
 
 @media (max-width: 768px) {
   .navbar {
-  position: absolute;
-  width: 50%;
-  top: 0;
-  left: 0;
-  padding: 8px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: maroon;
-  z-index: 10;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
   }
 
   .nav-links {
     flex-direction: column;
-    width: 100%;
+    align-items: flex-start;
     gap: 10px;
+    margin-top: 10px;
   }
 
   .hero-content {
-  color: white;
-  text-align: center;
-  padding: 200px 20px 0;
-}
+    padding: 100px 10px 0;
+  }
 
-.hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 5px black;
-  margin-top: -150px;
-}
+  .hero-content h1 {
+    font-size: 2rem;
+    margin-top: -100px;
+  }
 
-.explore-btn {
-  background: maroon;
-  padding: 10px 20px;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 10px;
-  transition: background 0.3s ease;
+  .hero-content p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 200px;
+  }
 
-}
+  .explore-btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
 
-.explore-btn:hover {
-  background: darkred;
-}
-
-.about-content {
-  position: relative;
-  background: maroon;
-  padding: 30px;
-  border-radius: 10px;
-  max-width: 600px;
-  width: 90%;
-  text-align: center;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-
+  .about-content {
+    padding: 20px;
+    width: 95%;
+  }
 }
