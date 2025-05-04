@@ -173,16 +173,16 @@ margin-bottom: 40px;
   }
 
   .nav-links {
-    flex-direction: row;  /* Keep links horizontal */
-    flex-wrap: wrap;      /* Allow wrapping on small screens */
+    flex-direction: row;
+    flex-wrap: wrap;    
     justify-content: center;
-    gap: 20px;             /* Smaller gap for mobile */
+    gap: 5px;      
     margin-top: 10px;
     width: 100%;
   }
 
   .nav-item a {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   #All-section h1, .Tourist h1, .City h1, .Food h1 {
