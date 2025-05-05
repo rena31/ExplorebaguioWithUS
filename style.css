@@ -153,9 +153,9 @@ body, html {
   .nav-links {
     flex-direction: column;
     width: 100%;
-    gap: 5px;
-    margin-top: 5px;
-    margin-left: 50px;
+    gap: 10px;
+    margin-top: 0px;
+    margin-left: 100px;
   }
   .nav-item {
     font-size: 15px;
@@ -165,10 +165,10 @@ body, html {
   }
  .hero-content h1 {
    font-size: 1.8rem;
-   margin-top: 100px;
+   margin-top: 160px;
 }
  .hero-content p {
-   margin-top: 110px;
+   margin-top: 150px;
    font-size: 1rem;
    margin-bottom: 140px;
 }
@@ -179,7 +179,7 @@ body, html {
 
   .about-content {
     padding: 10px;
-    max-width: 300px;
+    max-width: 200px;
 
   }
 }
