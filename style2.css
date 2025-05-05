@@ -165,27 +165,27 @@ margin-bottom: 40px;
   margin: 10px auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width:  768px) {
+
   .navbar {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 10px;
   }
 
   .nav-links {
     flex-direction: row;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;      
-    margin-top: 10px;
+    gap: 10px;
     width: 100%;
   }
 
-  .nav-item a {
+  .nav-item a{
     font-size: 10px;
   }
 
-  #All-section h1, .Tourist h1, .City h1, .Food h1 {
+  #All-section h1, .Tourist h1, .City h1, .Food h1{
     font-size: 1.5em;
   }
 
@@ -193,10 +193,10 @@ margin-bottom: 40px;
     font-size: 0.95em;
   }
 
-  .image-Tourist img,
-  .image-City img,
-  .image-Food img {
+  .image-Tourist img, .image-City img, .image-Food img {
     max-width: 100%;
     height: auto;
   }
+
+
 }
