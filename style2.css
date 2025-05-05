@@ -177,12 +177,12 @@ margin-bottom: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 18px;
     width: 100%;
   }
 
   .nav-item a{
-    font-size: 10px;
+    font-size: 15px;
   }
 
   #All-section h1, .Tourist h1, .City h1, .Food h1{

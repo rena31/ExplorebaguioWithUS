@@ -163,12 +163,13 @@ body, html {
     padding: 100px 10px 0;
   }
  .hero-content h1 {
-  font-size: 1rem;
-  margin-top: 150px;
+   font-size: 1.8rem;
+   margin-top: 150px;
 }
-.hero-content p {
-  font-size: 1.8rem;
-  margin-bottom: 250px;
+ .hero-content p {
+   font-size: 1rem;
+   margin-bottom: 250px;
+   margin-bottom: 100px;
 }
   .explore-btn {
     font-size: 15px;
